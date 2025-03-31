@@ -14,7 +14,8 @@ public class JavaDocs {
 
     void danglingJavaDoc() {
         /**
-         * the code and comment are not related
+         * remove or convert to
+         * normal multi-line comment
          */
         System.out.println("hello?");
     }
