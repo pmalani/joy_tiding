@@ -24,7 +24,8 @@ public class Logging {
         try {
             Thread.sleep(1);
         } catch (InterruptedException e) {
-            logger.warn("interrupted while processing {}", name, e);
+            // todo log exception
+            logger.error("interrupted while processing {}", name);
         }
     }
 
